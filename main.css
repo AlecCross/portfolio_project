@@ -42,3 +42,20 @@
     font-style: oblique;
     color: rgb(244, 206, 20);
 }
+
+.columns {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card{
+    border: thick double rgb(73, 94, 87);
+    text-align: center;
+    margin: 1%;
+    padding: 1%;
+    width: 33.3%;
+}
+
+.card_img{
+    width: 20%;
+}
