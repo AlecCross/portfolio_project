@@ -24,21 +24,31 @@
 
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="main.css">
 </head>
 
 <body>
-    <header>
+    <header class="header_container">
         <img class="logo" src="Asset 16@4x.png" alt="logo">
     </header>
     <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="menu.html">Menu</a></li>
-            <li><a href="about.html">About</a></li>
+        <ul class="navbar">
+            <li class="nav-item">
+                <a class="nav-subitem" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-subitem" href="menu.html">Menu</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-subitem" href="about.html">About</a>
+            </li>
         </ul>
     </nav>
-    <main>
-        <h1>Little Lemon</h1>
+    <main class="container">
+        <div>
+            <img class="banner" src="Asset 14@4x.png" alt="banner">
+        </div>
         <article>
             <h2>20% off this weekend</h2>
             <p>Come down to Little Lemon and your meal will be 20% off!</p>
@@ -47,9 +57,16 @@
             <h2>Our new menu</h2>
             <p>We've updated our menu with new dinners.</p>
         </article>
+        <article>
+            <h2>Our new menu</h2>
+            <p>We've updated our menu with new dinners.</p>
+        </article>
     </main>
     <footer class="body">
-        <p class="copyright">Copyright Little Lemon 2022</p>
+        <div class="footer_wrapper footer-container">
+            <img class="footer_logo" src="Asset 16@4x.png" alt="logo">
+            <p class="copyright">Copyright Little Lemon 2022</p>
+        </div>
     </footer>
 </body>
 

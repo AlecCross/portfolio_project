@@ -7,12 +7,57 @@
     position: relative;
     min-height: 20vh;
     background: #affd8b;
-    position: absolute;
     bottom: -11.1%;
     width: 100%;
     height: 250;
+    z-index: 9;
+}
+
+.footer_wrapper{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+.footer_logo{
+    height: 100%;
+    width: calc(50% - 9px);
 }
 
 .copyright {
+    width: calc(50% - 9px);
+    color: rgb(73, 94, 87);
+    font-size: 2ch;
     text-align: center;
+}
+
+.footer-container {
+    margin: 0 auto;
+    max-width: 1280px;
+    width: 90%;
+    color: rgb(73, 94, 87);
+}
+
+@media only screen and (min-width: 150px) {
+    .footer-container {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 601px) {
+    .footer-container {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 719px) {
+    .footer-container {
+        width: 85%;
+    }
+}
+
+@media only screen and (min-width: 993px) {
+    .footer-container {
+        width: 70%;
+    }
 }
