@@ -29,6 +29,9 @@
     color: rgb(73, 94, 87);
     font-size: 2ch;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .footer-container {
